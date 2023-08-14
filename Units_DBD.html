@@ -73,41 +73,47 @@
              <h4>Lecturecast - Big Data, Data Types and Data Formats (notes format)</h4>
              <p>By simple definition, big data grows exponentially and is boundless (volume), has varied formats (variety), and has high complexity (voracity and velocity). Big data has grown so large and in such complexity that conventional tech can no longer handle it (Ohlhurst, 2012)
 The fusion of the real and virtual worlds has been the core driver of Industry 4.0. Big data is central to this emerging phenomena, digital evolution, and revolution. Big data emerges from a variety of sources comprising of IOTs, factories, enterprise resource planning and customer relations management systems.
-For cleaning, exploring, creating, optimising and evaluating big data, the following are essential in the big data management process:
-Method - Cleansing, Standardization, Formatting, Normalisation
-Tools - Python, SQL, web services, GUI , security, SPSs 
-Techniques - as methods 
-Strategy - Data refining, cleaning, machine learning, data modelling, statistical (SPSS)
-Varied data characterises big data - text, video, photos, meta data, html
-Data formats:
-Structured - highly organised EMG relational database
-Semi-structured data - being partially organised and not fully organised; not fully conforming with data storage formats and standards; being delimited in form, thereby making the process of retrieving data more difficult. Examples include HTML, XML and other markup languages.
-Quasi structured data - This involves specifically textual data that has a temporal state, having erratic data formats. Sometimes data transforms to a temporal state due to its continuous interaction with other systems. An example could be data streams on a social media page or clickstream data from Google searches
-Unstructured - poorly formatted, loosely joined, varied formats - XML, JSON, CSV. Social media posts are an example.
-More detail on these:
-CSV is a data exchange format that is widely used in business to hold tabular data and transfer data between applications
-JavaScript Object Notation, or JSON, is a simple data-interchange format that is easy for machines to parse and generate, and holds data in key and value pairs separated by a colon. This data format is one of the most commonly used formats for data transfers. It is preferred because it is clean, easy to read, and easy to parse. Many websites have JSON-enabled APIs.
-Markup languages have specially formatted text using tags and nodes, and include XML (or Extensible Markup Language) and HTML (or Hypertext Markup Language). They use tags (as readable strings) to control the document structure for holding and manipulating data. XML allows data exchange quickly between applications and platforms, but is not meant for presenting the data, while HTML displays data and is used widely for web pages. 
-PDF - Highly human readable but hard to extract. Require algorithms to exploit.
-Xlsx - Human readable, unstructured. More complex libraries in python needed to read
-Approaches to consider:.
-Before attempting to handle PDF, Excel and other hard-to-parse formats, check if other raw formats are available. The rawer the format (that is machine-readable), the more likely it is to be accurate and easy to parse with code.
+For cleaning, exploring, creating, optimising and evaluating big data, the following are essential in the big data management process:<p>
+	
+<p>Method - Cleansing, Standardization, Formatting, Normalisation</p>
+<p>Tools - Python, SQL, web services, GUI , security, SPSs</p> 
+<p>Techniques - as methods</p>
+<p>Strategy - Data refining, cleaning, machine learning, data modelling, statistical (SPSS)</p>
+<p>Varied data characterises big data - text, video, photos, meta data, html</p>
+								
+<p>Data formats:</p>
+<p>Structured - highly organised EMG relational database</p>
+<p>Semi-structured data - being partially organised and not fully organised; not fully conforming with data storage formats and standards; being delimited in form, thereby making the process of retrieving data more difficult. Examples include HTML, XML and other markup languages.</p>
+<p>Quasi structured data - This involves specifically textual data that has a temporal state, having erratic data formats. Sometimes data transforms to a temporal state due to its continuous interaction with other systems. An example could be data streams on a social media page or clickstream data from Google searches</p>
+<p>Unstructured - poorly formatted, loosely joined, varied formats - XML, JSON, CSV. Social media posts are an example.</p>
+	
+<p>More detail on these:</p>
+<p>CSV is a data exchange format that is widely used in business to hold tabular data and transfer data between applications</p>
+<p>JavaScript Object Notation, or JSON, is a simple data-interchange format that is easy for machines to parse and generate, and holds data in key and value pairs separated by a colon. This data format is one of the most commonly used formats for data transfers. It is preferred because it is clean, easy to read, and easy to parse. Many websites have JSON-enabled APIs.</p>
+<p>Markup languages have specially formatted text using tags and nodes, and include XML (or Extensible Markup Language) and HTML (or Hypertext Markup Language). They use tags (as readable strings) to control the document structure for holding and manipulating data. XML allows data exchange quickly between applications and platforms, but is not meant for presenting the data, while HTML displays data and is used widely for web pages.</p>
+<p>PDF - Highly human readable but hard to extract. Require algorithms to exploit.</p>
+<p>Xlsx - Human readable, unstructured. More complex libraries in python needed to read</p>
+	
+<p>Approaches to consider:</p>
+<p>Before attempting to handle PDF, Excel and other hard-to-parse formats, check if other raw formats are available. The rawer the format (that is machine-readable), the more likely it is to be accurate and easy to parse with code.
 Consider how other corporates interested in the same dataset as you have approached their data management implementation. If Python is the language for the data management application, then identifying the relevant tools and libraries is an essential first step.
-Ultimately, consider if the dataset can be converted into simpler machine-readable formats.
+Ultimately, consider if the dataset can be converted into simpler machine-readable formats.</p>
 <b>References:</b> 
-Ohlhorst, F.J. (2012) Big Data Analytics: Turning Big Data into Big Money. Wiley Professional Development
+<p>Ohlhorst, F.J. (2012) Big Data Analytics: Turning Big Data into Big Money. Wiley Professional Development</p>
 
 <h4>Reading</h4>
-<b>Sarkar, T. & Roychowdhury, S. (2019) Data Wrangling with Python. 1st ed. Packt.</b>
-Chapter 1 provides an introduction to Data Wrangling and its importance as a step in the data science pipe line. Data Wrangling is about refining the data so it is fit for its’s intended purpose. Generally undertaken at the very start of the process once data sources have been identified, it can be a considerable proportion of a Data Scientist role and will rarely not be part of the process. 
+<p><b>Sarkar, T. & Roychowdhury, S. (2019) Data Wrangling with Python. 1st ed. Packt.</b></p>
+<p>Chapter 1 provides an introduction to Data Wrangling and its importance as a step in the data science pipe line. Data Wrangling is about refining the data so it is fit for its’s intended purpose. Generally undertaken at the very start of the process once data sources have been identified, it can be a considerable proportion of a Data Scientist role and will rarely not be part of the process. 
 Sarkar & Roychowdhury include the following steps within the data wrangling phase: Retrieving (scraping) from sources; manipulating the data to make it ready for modelling; dealing with errors, identifying outliers; and initial exploratory analysis to judge data quality. 
 Coding languages like Python are a powerful and flexible method to perform data wrangling, there are many off the shelf options available too but direct programming means that organisations are not beholden to private enterprise for process or method. As the 4 Vs volume, variety, velocity and veracity - Python offers flexibility to grow and adapt. 
 Reflection - The importance of data wrangling to ensure value can be derived from data by ensuring it is in the best possible format is well documented and set our clearly by Sarkar & Roychowdhury. The value of Python as an open source and free language that is hugely flexible to cope with ever changing data grow and change (4 Vs) is a compelling case for organisations wishing to get the best value from their data 
-The exercises in the rest of the chapter provided a reminder of some Python basics covered in previous modules with a particular focus on data structures which is useful when undertaking data wrangling with Python.
-Collaborative discussion 1 - The Data Collection Process
-Critically evaluate the rationale behind the Internet of Things (IOT), in the context of the article by Huxley et al (2020), highlighting the opportunities, limitations, risks and challenges associated with such a large-scale process of data collection.
-Notes from article:
-When data becomes too large or complex for standard database infostructure, big data solutions (architecture) is intended to enable the data wrangling and analysis process. Big data does not always apply to just the size of the data, it can also relate to the approaches taken to try and extract the meaning from that data. 
+The exercises in the rest of the chapter provided a reminder of some Python basics covered in previous modules with a particular focus on data structures which is useful when undertaking data wrangling with Python.</p>
+
+<p>Collaborative discussion 1 - The Data Collection Process</p>
+<p>Critically evaluate the rationale behind the Internet of Things (IOT), in the context of the article by Huxley et al (2020), highlighting the opportunities, limitations, risks and challenges associated with such a large-scale process of data collection.</p>
+
+<p>Notes from article:</p>
+<p>When data becomes too large or complex for standard database infostructure, big data solutions (architecture) is intended to enable the data wrangling and analysis process. Big data does not always apply to just the size of the data, it can also relate to the approaches taken to try and extract the meaning from that data. 
 The size (volume) and pace (velocity) are key factors in the technical solution to storing and dealing with the data, the solution may require live processing, predictive analytics, machine learning or interactive exploration. Large data, unstructured data or real time data may all require big data architecture. The data is likely to need to be processed and ingested from its live source, stored, classified or aggregated so that it is made suitable for analysis and reporting. 
 Data coming in at a great velocity, such as temperature gauges as part of the internet could be processed by using a Lambda architecture, this includes a hot and cold path. The hot path allows fast data availability but lower accuracy, the cold bath processed more accurately but is available less quickly. Both streams eventually converge with the most accurate data available but the hot stream allows instant data analysis and views as the general processing process continues.
 Internet of things (IoT) is any connected device that sends or receives data. These devices are growing and developing and require rapid processing. The data architecture must ingest the raw events from the devices the send them for processing such as analysis process or storage, analysis could include the hot path (instantly available) route already discussed, alerting or machine learning processes.</p> 
